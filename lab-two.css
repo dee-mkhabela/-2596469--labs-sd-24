@@ -1,1 +1,63 @@
+ *{
+        margin: 0px;
+    }
+      
+        header {
+        display: flex;
+        justify-content: space-between; /* Aligns the items to the start and end of the flex container */
+        align-items: center; /* Aligns items vertically in center */
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        background-size: 10%;
+      }
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      nav ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+      nav ul li a {
+      color: #fff; /* Change link text color here */
+      text-decoration: none; /* Remove underline from links */
+     }
+      
+      nav {
+        text-align: right; /* Aligns the text to the right */
+      }
 
+      #about-sec{
+        text-align: center;
+        margin-bottom: 20px ;
+      }
+      #Services{
+        text-align: center;
+      }
+
+      #Parent-sec{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      #web-dev-fig{
+        border: 2px solid #CCCCCC;
+        padding: 5px;
+      }
+      #design-fig{
+        border: 2px solid #CCCCCC;
+        padding: 5px;
+      }
+
+      #my-footer{
+        text-align: center;
+        background-color: #333;
+        color: white;
+        padding: 20px;
+      }
